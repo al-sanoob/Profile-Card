@@ -5,8 +5,8 @@
 }
 
 body{
-    background-color: #191e22;
-    background-image: url(./image/bg1.jpg);
+    background-color: #080818;
+    /* background-image: url(./image/bg1.jpg); */
     background-size: cover;
     height: 100vh;
 
@@ -26,7 +26,7 @@ body{
 
 .card-header{
     padding: 35px 0;
-    background-image: linear-gradient(60deg,#f837eed7,#fd000dc5);
+    background-image: linear-gradient(60deg,#61a1dd,#0083fd);
 }
 
 .card-header img{
@@ -34,7 +34,7 @@ body{
     height: 140px;
     object-fit: cover;
     border-radius: 50%;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
 }
 
 .card-body{
@@ -69,7 +69,7 @@ body{
 }
 
 .social-media-list a:hover{
-    color: #ff316f;
+    color:#61a1dd
 }
 
 .card-body .about{
@@ -79,7 +79,7 @@ body{
 .card-body .btn{
     text-decoration: none;
     padding: 16px 48px;
-    background-image: linear-gradient(60deg,#f837eed7,#fd000dc5);
+    background-image: linear-gradient(60deg,#61a1dd,#0083fd);
     color: #fff;
     border-radius: 100px;
     text-transform: capitalize;
